@@ -1,0 +1,42 @@
+2018-09-05 04:04:17 Error: [RuntimeException] Unknown command `cake hello`. Run `cake --help` to get the list of valid commands. in C:\xampp\htdocs\Cloud9\blog\vendor\cakephp\cakephp\src\Console\CommandRunner.php on line 321
+Stack Trace:
+#0 C:\xampp\htdocs\Cloud9\blog\vendor\cakephp\cakephp\src\Console\CommandRunner.php(159): Cake\Console\CommandRunner->resolveName(Object(Cake\Console\CommandCollection), Object(Cake\Console\ConsoleIo), 'hello')
+#1 C:\xampp\htdocs\Cloud9\blog\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#2 {main}
+
+
+2018-09-12 04:00:05 Error: [RuntimeException] Unknown command `cake controller`. Run `cake --help` to get the list of valid commands. in C:\xampp\htdocs\Cloud9\blog\vendor\cakephp\cakephp\src\Console\CommandRunner.php on line 321
+Stack Trace:
+#0 C:\xampp\htdocs\Cloud9\blog\vendor\cakephp\cakephp\src\Console\CommandRunner.php(159): Cake\Console\CommandRunner->resolveName(Object(Cake\Console\CommandCollection), Object(Cake\Console\ConsoleIo), 'controller')
+#1 C:\xampp\htdocs\Cloud9\blog\bin\cake.php(13): Cake\Console\CommandRunner->run(Array)
+#2 {main}
+
+
+2018-09-12 04:46:54 Error: [PDOException] SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\Cloud9\blog\vendor\cakephp\cakephp\src\Database\Driver.php on line 92
+Stack Trace:
+#0 C:\xampp\htdocs\Cloud9\blog\vendor\cakephp\cakephp\src\Database\Driver.php(92): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\xampp\htdocs\Cloud9\blog\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(106): Cake\Database\Driver->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\Cloud9\blog\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\Cloud9\blog\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\Cloud9\blog\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\Cloud9\blog\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(42): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\Cloud9\blog\vendor\cakephp\cakephp\src\Database\Connection.php(391): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\Cloud9\blog\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(1049): Cake\Database\Connection->getSchemaCollection()
+#8 C:\xampp\htdocs\Cloud9\blog\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(1003): Bake\Shell\Task\ModelTask->_getAllTables()
+#9 C:\xampp\htdocs\Cloud9\blog\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(1018): Bake\Shell\Task\ModelTask->listAll()
+#10 C:\xampp\htdocs\Cloud9\blog\vendor\cakephp\bake\src\Shell\BakeShell.php(252): Bake\Shell\Task\ModelTask->listUnskipped()
+#11 C:\xampp\htdocs\Cloud9\blog\vendor\cakephp\cakephp\src\Console\Shell.php(518): Bake\Shell\BakeShell->all()
+#12 C:\xampp\htdocs\Cloud9\blog\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\Cloud9\blog\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#14 C:\xampp\htdocs\Cloud9\blog\bin\cake.php(13): Cake\Console\CommandRunner->run(Array)
+#15 {main}
+
+
+2018-09-13 04:54:42 Error: [RuntimeException] Unknown command `cake cake`. Run `cake --help` to get the list of valid commands. in C:\xampp\htdocs\Cloud9\blog\vendor\cakephp\cakephp\src\Console\CommandRunner.php on line 321
+Stack Trace:
+#0 C:\xampp\htdocs\Cloud9\blog\vendor\cakephp\cakephp\src\Console\CommandRunner.php(159): Cake\Console\CommandRunner->resolveName(Object(Cake\Console\CommandCollection), Object(Cake\Console\ConsoleIo), 'cake')
+#1 C:\xampp\htdocs\Cloud9\blog\bin\cake.php(13): Cake\Console\CommandRunner->run(Array)
+#2 {main}
+
+

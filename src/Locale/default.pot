@@ -1,0 +1,92 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2018-09-12 03:18+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/ArticlesController.php:41
+msgid "Your article has been saved."
+msgstr "あなたの記事は保存されました。"
+
+#: Controller/ArticlesController.php:44
+msgid "Unable to add your article."
+msgstr "あなたの記事を追加できません。"
+
+#: Controller/ArticlesController.php:58
+msgid "The article has been saved."
+msgstr "記事が保存されました。"
+
+#: Controller/ArticlesController.php:62
+msgid "The article could not be saved. Please, try again."
+msgstr "記事を保存できませんでした。 もう一度やり直してください。"
+
+#: Controller/UsersController.php:44;62
+msgid "Success! Login to relax!!!"
+msgstr "成功！ リラックスするためにログイン！"
+
+#: Controller/UsersController.php:48
+msgid "Opps!!! Something went wrong"
+msgstr "Opps !!! 何かが間違っていた"
+
+#: Controller/UsersController.php:70
+msgid "Username or password is incorrect"
+msgstr "ユーザー名かパスワードが間違っています"
+
+#: Template/Articles/add.ctp:7
+msgid "Add Articles"
+msgstr "記事を追加"
+
+#: Template/Articles/edit.ctp:6
+msgid "Save Changes"
+msgstr ""
+
+#: Template/Layout/error.ctp:35
+msgid "Error"
+msgstr "エラー"
+
+#: Template/Layout/error.ctp:43
+msgid "Back"
+msgstr "バック"
+
+#: Template/Users/add.ctp:7
+msgid "Create new account"
+msgstr "新しいアカウントを作成する"
+
+#: Template/Users/add.ctp:15
+msgid "Submit"
+msgstr "提出する"
+
+#: Template/Users/login.ctp:1;13
+msgid "Login"
+msgstr "ログイン"
+
+#: Template/Users/login.ctp:5
+msgid "message"
+msgstr "メッセージ"
+
+#: Template/Users/login.ctp:9
+msgid "Enter your username and password"
+msgstr "あなたのユーザー名とパスワードを入力してください"
+
+#: Template/Users/login.ctp:11
+msgid "password"
+msgstr "パスワード"
+
+#: Template/Users/login.ctp:16
+msgid "Have no account?"
+msgstr "アカウントがありませんか？"
+
+#: Template/Users/login.ctp:17
+msgid "Register"
+msgstr "登録"
+

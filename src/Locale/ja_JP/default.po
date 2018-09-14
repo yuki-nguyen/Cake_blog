@@ -1,0 +1,79 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2018-09-12 03:26+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Template/Users/add.ctp:7
+msgid "Create new account"
+msgstr "新しいアカウントを作成する"
+
+#: Template/Users/add.ctp:15
+msgid "Submit"
+msgstr "提出する"
+
+#: Template/Users/login.ctp:1;13
+msgid "Login"
+msgstr "ログイン"
+
+#: Template/Users/login.ctp:5
+msgid "message"
+msgstr "メッセージ"
+
+#: Template/Users/login.ctp:9
+msgid "Enter your username and password"
+msgstr "あなたのユーザー名とパスワードを入力してください"
+
+#: Template/Users/login.ctp:10;43;59
+msgid "username"
+msgstr "ユーザー名"
+
+
+#: Template/Users/login.ctp:9
+msgid "password"
+msgstr "パスワード"
+
+#: Template/Users/login.ctp:16
+msgid "Have no account?"
+msgstr "アカウントがありませんか？"
+
+#: Template/Users/login.ctp:17
+msgid "Register"
+msgstr "登録"
+
+#: Template/Users/login.ctp:60
+msgid "Please enter username"
+msgstr "ユーザー名を入力してください"
+
+#: Template/Users/login.ctp:61
+msgid "At least 2 characters"
+msgstr "少なくとも2文字"
+
+#: Template/Users/login.ctp:62;69
+msgid "Maximum is 20 characters"
+msgstr "最大20文字"
+
+#: Template/Users/login.ctp:63
+msgid "No space"
+msgstr "スペースなし"
+
+#: Template/Users/login.ctp:67
+msgid "Please enter password"
+msgstr "パスワードを入力してください"
+
+#: Template/Users/login.ctp:68
+msgid "At least 6 characters"
+msgstr "最低6文字"
+
+msgid "A ball"
+msgstr "最低6文字"

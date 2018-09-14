@@ -1,0 +1,2 @@
+msgid "A ball"
+msgstr "Ein Ball"

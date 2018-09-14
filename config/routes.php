@@ -15,6 +15,8 @@ Router::scope('/', function (RouteBuilder $routes) {
 
     $routes->connect('/', ['controller' => 'Articles', 'action' => 'index']);
 
+    // $routes->connect('locale',['controller'=>'Localizations','action'=>'index']);
+
 
     $routes->connect(
         '/articles/:id',
@@ -26,6 +28,8 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/login', ['controller' => 'Users', 'action' => 'login']);
 
     $routes->connect('/register', ['controller' => 'Users', 'action' => 'add']);
+
+    $routes->connect('international',['controller'=>'Internationalizations','action'=>'index']);
 
 
     $routes->fallbacks(DashedRoute::class);

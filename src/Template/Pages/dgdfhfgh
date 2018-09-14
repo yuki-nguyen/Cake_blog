@@ -1,0 +1,77 @@
+<?php $this->assign('title', 'Login');?>
+<br>
+<div class="index large-4 medium-4 large-offset-4 medium-offset-4 columns">
+	<div class="panel">
+		<h2 class="text-center"><?= __('Login') ?></h2>
+                <?= $this->Flash->render() ?>
+                <?= $this->Form->create('User', array('id' => 'login')); ?>
+		            <fieldset>
+                        <legend><h6><?= __('Enter your username and password') ?></h6></legend>
+                            <?= $this->Form->control(__x('username')) ?>
+                            <?= $this->Form->control(__('password')) ?>
+
+                            <?= $this->Form->button(__('Login')); ?>
+
+                            <br>
+                        <?= __('Have no account?')?>
+                            <?= $this->Html->link(__('Register'), ['action' => 'add']) ?>
+                    </fieldset>
+                    <?= $this->Flash->render('auth') ?> <?= $this->Flash->render();?>
+                    <?= $this->Form->end() ?> 
+    </div>
+</div>
+<script>
+
+
+
+$(document).ready(function() {
+    jQuery.validator.addMethod("noSpace", function(value, element) { 
+        if(value.indexOf(" ") < 0 && value != ""){
+            return true;
+        }
+        if(value.indexOf("　") < 0 && value != ""){
+            return true;
+        }   
+        return false;
+            }, <?= __("Space are not allowed") ?>);
+
+        })
+
+
+    $('#login').validate({
+        rules: {
+            'username': {
+                required: true,
+                minlength: 2,
+                maxlength: 20,
+                noSpace: true,
+                accept: true
+            },
+            
+            'password': {
+                required: true,
+                minlength: 6,
+                maxlength: 20,
+            },
+            'password_confirm': {
+                equalTo: "#password"
+            }
+        },
+        messages: {
+            'username': {
+                required: <?= __("Please enter username") ?>,
+                minlength: <?= __("At least 2 characters") ?>,
+                maxlength: <?= __("Maximum is 20 characters") ?>,
+                accept: <?= __("No white space") ?>
+            },
+            
+            'password': {
+                required: <?= __("Please enter password") ?>,
+                minlength: <?= __("At least 6 characters") ?>,
+                maxlength: <?= __("Maximum is 20 characters") ?>,
+            },
+            
+            
+        },
+    });
+</script>

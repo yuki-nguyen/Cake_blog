@@ -1,0 +1,64 @@
+# LANGUAGE translation of CakePHP Application
+
+#: Template/Users/add.ctp:7
+msgid "Create new account"
+msgstr "Create new account"
+
+#: Template/Users/add.ctp:15
+msgid "Submit"
+msgstr "Submit"
+
+#: Template/Users/login.ctp:1;13
+msgid "Login"
+msgstr "Login"
+
+#: Template/Users/login.ctp:5
+msgid "message"
+msgstr "message"
+
+#: Template/Users/login.ctp:9
+msgid "Enter your username and password"
+msgstr "Enter your username and password"
+
+#: Template/Users/login.ctp:10;43;59
+msgid "username"
+msgstr "username"
+
+
+#: Template/Users/login.ctp:9
+msgid "password"
+msgstr "password"
+
+#: Template/Users/login.ctp:16
+msgid "Have no account?"
+msgstr "Have no account?"
+
+#: Template/Users/login.ctp:17
+msgid "Register"
+msgstr "Register"
+
+#: Template/Users/login.ctp:60
+msgid "Please enter username"
+msgstr "Please enter username"
+
+#: Template/Users/login.ctp:61
+msgid "At least 2 characters"
+msgstr "At least 2 characters"
+
+#: Template/Users/login.ctp:62;69
+msgid "Maximum is 20 characters"
+msgstr "Maximum is 20 characters"
+
+#: Template/Users/login.ctp:63
+msgid "No space"
+msgstr "No space"
+
+#: Template/Users/login.ctp:67
+msgid "Please enter password"
+msgstr "Please enter password"
+
+#: Template/Users/login.ctp:68
+msgid "At least 6 characters"
+msgstr "At least 6 characters"
+
+
